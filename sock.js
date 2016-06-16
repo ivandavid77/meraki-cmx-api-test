@@ -18,9 +18,11 @@ module.exports = function() {
     }
   }
 
-  ws.on('connection', (conn) => {
+  ws.on('connection', function(conn) {
     clients[conn.id] = conn;
-    conn.on('close', () => delete clients[conn.id]);
+    conn.on('close', function() {
+       delete clients[conn.id]
+    });
   });
 
   var externalAPI = {

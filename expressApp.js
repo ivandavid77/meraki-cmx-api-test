@@ -21,7 +21,9 @@ module.exports = function(config, ws) {
     function run() {
         server.listen(
             app.get('port'),
-            () => console.log('Aplicacion iniciada: '+app.get('port'))
+            function() { 
+                console.log('Aplicacion iniciada: '+app.get('port'));
+            }
         );
     }
     var externalAPI = {
