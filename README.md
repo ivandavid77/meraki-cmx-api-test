@@ -4,14 +4,14 @@ Para su ejecucion es necesario instalar nodejs, npm y bower, posteriormente ejec
 
 Para la instalacion de todas las dependencias:
 
-$npm install 
+>$ npm install 
 
-$cd public
+>$ cd public
 
-$bower install
+>$ bower install
 
 
 
 Para iniciar el servicio web:
 
-sudo node index.js
+>$ sudo node index.js
