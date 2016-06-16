@@ -1,0 +1,24 @@
+{
+  "name": "meraki-cmx-api-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivandavid77/meraki-cmx-api-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivandavid77/meraki-cmx-api-test/issues"
+  },
+  "homepage": "https://github.com/ivandavid77/meraki-cmx-api-test#readme",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "sockjs": "^0.3.17"
+  }
+}

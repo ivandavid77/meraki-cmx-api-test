@@ -1,0 +1,23 @@
+{
+  "name": "public",
+  "homepage": "https://github.com/ivandavid77/meraki-cmx-api-test",
+  "authors": [
+    "Ivan David Barron Baez <ivandavid77@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.0.0",
+    "requirejs-plugins": "^1.0.3",
+    "sockjs-client": "^1.1.1"
+  }
+}
